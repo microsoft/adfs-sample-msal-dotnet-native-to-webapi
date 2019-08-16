@@ -18,7 +18,7 @@ Before reading this article, you should be familiar with the [AD FS concepts](..
  
 ## Overview 
  
- ![Overview](media/adfs-msal-native-app-web-api/native1.png)
+ ![Overview](media/native1.png)
 
 In this flow you add authentication to your Native App (public client), which can therefore sign in users and calls a Web API. To call a Web API from a Native App that signs in users, you can use MSAL's [AcquireTokenInteractive](https://docs.microsoft.com/en-us/dotnet/api/microsoft.identity.client.ipublicclientapplication.acquiretokeninteractive?view=azure-dotnet#Microsoft_Identity_Client_IPublicClientApplication_AcquireTokenInteractive_System_Collections_Generic_IEnumerable_System_String__) token acquisition method. To enable this interaction, MSAL leverages a web browser. 
 
